@@ -5,8 +5,8 @@ module ActiveMerchant #:nodoc:
     class LitleGateway < Gateway
       SCHEMA_VERSION = '9.4'
 
-      self.test_url = 'https://www.testlitle.com/sandbox/communicator/online'
-      self.live_url = 'https://payments.litle.com/vap/communicator/online'
+      self.test_url = 'https://payments.vantivpostlive.com/vap/communicator/online'
+      self.live_url = 'https://payments.vantivcnp.com/vap/communicator/online'
 
       self.supported_countries = ['US']
       self.default_currency = 'USD'
